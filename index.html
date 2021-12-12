@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+     
+    <link rel="stylesheet" href="./assets/style.css">
+    <!-- jsFiddle will insert css and js -->
+  </head>
+  <body class="content-wrap">
+    <section>
+      <div class="intro">
+        <h1 style="font-size: 3.0rem;">CSUN Maps Game!!</h1>
+        <h3>Double click your best guess for the location given</h3>
+        <h3>Double Click to start the game</h3>
+        <div class="timer">00:00:00</div>
+
+      </div>
+      <div class=results>
+        <p id="score">Score: </p>
+        <p id="time-elapsed"> Time: </p>
+      </div>  
+  
+
+        <h1>Please Click the location of: <h1 id="location">Oviatt Library</h1></h1>
+        <!-- <p id="q1" class="question">Where is the Oviatt Library</p> -->
+        <p id="a1" class="answers"></p>
+        <p id="a2" class="answers"></p>
+        <p id="a3" class="answers"></p></p>
+        <p id="a4" class="answers"></p></p>
+        <p id="a5" class="answers"></p></p>
+    </section>
+  
+ 
+    
+    <div id="map" class="map-box">
+     
+      <script src="script.js"></script>
+      <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFlPuD_q_tg_zA1H8OOXCRgqxK-S7x_gc&callback=initMap&v=weekly&channel=2&libraries=geometry"
+      type="text/javascript" 
+      async
+      ></script>
+    </div>
+   
+
+   
+    
+  </body>
+</html>

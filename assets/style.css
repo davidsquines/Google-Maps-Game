@@ -1,0 +1,57 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+    height: 70%;
+    width: 40%;
+    position: relative;
+}
+
+/* Optional: Makes the sample page fill the window. */
+
+html,
+body {
+  font-size: 18px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FAEBD7;
+  line-height: 1.5;
+}
+
+.content-wrap{
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .intro{
+    text-align: center;
+  }
+
+#location{
+  text-align: center;
+  background-color: green;
+  color: white;
+  font-size: 2.0rem;
+}
+.timer{
+  background-color: red;
+  color:white;
+  border-radius: 10px;
+  font-size: 2.5rem;
+}
+
+.answers{
+  text-align: center;
+}
+p{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.results{
+  background-color: blue;
+  color: white;
+  text-align: center;
+  border-radius: 30px;
+}
